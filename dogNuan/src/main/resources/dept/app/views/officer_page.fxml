@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="officerBackground" prefHeight="600.0" prefWidth="800.0" stylesheets="@../Theme/pastel.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dept.app.controllers.officer.OfficerController">
+   <children>
+      <Pane fx:id="officerMenuPane" prefHeight="600.0" prefWidth="200.0">
+         <children>
+            <Button fx:id="officerLogOut" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#onLogoutButtonClick" text="Log Out" />
+            <GridPane layoutX="26.0" layoutY="245.0" prefHeight="300.0" prefWidth="150.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Button fx:id="officerChangeProfile" mnemonicParsing="false" onAction="#onProfileButtonClick" prefHeight="11.0" prefWidth="122.0" text="Change Profile" />
+                  <Button fx:id="officerMaterialsList" mnemonicParsing="false" onAction="#onMaterialsListButtonClick" prefHeight="26.0" prefWidth="122.0" text="Materials List" GridPane.rowIndex="1" />
+                  <Button fx:id="officerDurablesList" mnemonicParsing="false" onAction="#onDurablesListButtonClick" prefHeight="0.0" prefWidth="122.0" text="Durables List" GridPane.rowIndex="2" />
+                  <Button fx:id="officerBorrowReturn" mnemonicParsing="false" onAction="#onBorrowReturnButtonClick" prefHeight="0.0" prefWidth="122.0" text="Borrow / Return" GridPane.rowIndex="3" />
+                  <Button fx:id="officerAddMaterials" contentDisplay="CENTER" mnemonicParsing="false" onAction="#onAddMaterialsPage" prefHeight="26.0" prefWidth="134.0" text="Add Materials" GridPane.rowIndex="4" />
+                  <Button fx:id="officerAddDurables" mnemonicParsing="false" onAction="#onAddDurablesPage" prefHeight="0.0" prefWidth="130.0" text="Add Durables" GridPane.rowIndex="5" />
+               </children>
+            </GridPane>
+            <ImageView fitHeight="151.0" fitWidth="163.0" layoutX="25.0" layoutY="70.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/Icon.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <ImageView fx:id="sampleImageView" fitHeight="213.0" fitWidth="220.0" layoutX="371.0" layoutY="87.0" pickOnBounds="true" preserveRatio="true" />
+      <GridPane layoutX="342.0" layoutY="326.0" prefHeight="134.0" prefWidth="314.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="38.4" minHeight="10.0" prefHeight="35.19998779296875" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="49.60001220703125" minHeight="10.0" prefHeight="41.60001220703125" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="45.400000000000006" minHeight="10.0" prefHeight="33.400000000000006" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label fx:id="officerRoleLabel" text="Role :">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="officerNameLabel" text="Name :" GridPane.rowIndex="1">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="officerUsernameLabel" text="Username :" GridPane.rowIndex="2">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="roleOfficerLabel" text="Label" GridPane.columnIndex="1">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="nameOfficerLabel" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="usernameOfficerLabel" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </GridPane>
+      <Label fx:id="officerTimeLabel" layoutX="342.0" layoutY="470.0" text="Time Login:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="timeOfficerLabel" layoutX="499.0" layoutY="470.0" text="Label">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

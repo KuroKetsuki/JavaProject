@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="infoBackground" prefHeight="600.0" prefWidth="800.0" stylesheets="@../Theme/pastel.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dept.app.controllers.home.AboutUsController">
+   <children>
+      <Button fx:id="backInfoButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#onBackButtonClick" text="Back">
+         <font>
+            <Font name="Raleway" size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="infoLabel" layoutX="292.0" layoutY="80.0" text="Information Producer">
+         <font>
+            <Font name="Raleway" size="24.0" />
+         </font>
+      </Label>
+      <Pane fx:id="dev1" layoutX="225.0" layoutY="136.0" prefHeight="184.0" prefWidth="370.0">
+         <children>
+            <Label layoutX="175.0" layoutY="41.0" text="ชื่อ : นายมหรรณพ บรรณจิรกุล">
+               <font>
+                  <Font name="Raleway" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="175.0" layoutY="83.0" text="ชื่อเล่น : โดม">
+               <font>
+                  <Font name="Raleway" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="175.0" layoutY="126.0" text="รหัสนิสิต : 6410451342">
+               <font>
+                  <Font name="Perpetua" size="14.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="150.0" fitWidth="125.0" layoutX="14.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/Mahannop.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane fx:id="dev2" layoutX="14.0" layoutY="370.0" prefHeight="184.0" prefWidth="370.0">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="125.0" layoutX="14.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/Warissara.jpg" />
+               </image></ImageView>
+            <Label layoutX="200.0" layoutY="39.0" text="ชื่อ : นางสาววริศรา งามศรัทธา">
+               <font>
+                  <Font name="Perpetua" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="200.0" layoutY="81.0" text="ชื่อเล่น : ทรวง">
+               <font>
+                  <Font name="Perpetua" size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="200.0" layoutY="123.0" text="รหัสนิสิต : 6410451385">
+               <font>
+                  <Font name="Perpetua" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane fx:id="dev3" layoutX="431.0" layoutY="370.0" prefHeight="184.0" prefWidth="354.0">
+         <children>
+            <Label layoutX="177.0" layoutY="43.0" text="ชื่อ : นางสาวสุนีพร โภคารัตน์กุล">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="177.0" layoutY="82.0" text="ชื่อเล่น : กิ๊ฟท์">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="177.0" layoutY="122.0" text="รหัสนิสิต : 6410451491">
+               <font>
+                  <Font name="Perpetua" size="14.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="138.0" fitWidth="125.0" layoutX="14.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/Suneepond.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

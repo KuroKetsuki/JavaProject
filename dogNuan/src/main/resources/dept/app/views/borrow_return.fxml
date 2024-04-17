@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<AnchorPane fx:id="borrowReturnBackground" prefHeight="600.0" prefWidth="800.0" stylesheets="@../Theme/pastel.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dept.app.controllers.officer.BorrowReturnController">
+   <children>
+      <Button fx:id="borrowReturnBack" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#onBackButtonClick" text="Back" />
+      <Label fx:id="borrowLabel" layoutX="62.0" layoutY="72.0" text="Borrow" />
+      <Button fx:id="borrowPermit" layoutX="318.0" layoutY="502.0" mnemonicParsing="false" onAction="#onPermitBorrow" text="Permit" />
+      <Label fx:id="returnLabel" layoutX="436.0" layoutY="72.0" text="Return" />
+      <Button fx:id="returnPermit" layoutX="694.0" layoutY="502.0" mnemonicParsing="false" onAction="#onPermitReturn" stylesheets="@../Theme/pastel.css" text="Permit" />
+      <TableView fx:id="borrowTable" layoutX="62.0" layoutY="110.0" prefHeight="340.0" prefWidth="310.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="C1" />
+          <TableColumn prefWidth="75.0" text="C2" />
+        </columns>
+      </TableView>
+      <TableView fx:id="returnTable" layoutX="436.0" layoutY="110.0" prefHeight="340.0" prefWidth="310.0">
+         <columns>
+            <TableColumn prefWidth="75.0" text="C1" />
+            <TableColumn prefWidth="75.0" text="C2" />
+         </columns>
+      </TableView>
+      <GridPane layoutX="64.0" layoutY="469.0" prefHeight="91.0" prefWidth="253.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label fx:id="borrowerName" text="Borrower Name" />
+            <Label fx:id="durableName" text="Durable Artical Name" GridPane.rowIndex="1" />
+            <Label fx:id="timeRequest" text="Time Request" GridPane.rowIndex="2" />
+            <Label fx:id="borrowerBLabel" text="borrowerBLabel" GridPane.columnIndex="1" />
+            <Label fx:id="durableBLabel" text="durableBLabel" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Label fx:id="timeBLabel" text="timeBLabel" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+         </children>
+      </GridPane>
+      <GridPane layoutX="436.0" layoutY="469.0" prefHeight="91.0" prefWidth="254.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label fx:id="borrowerName" text="Borrower Name" />
+            <Label fx:id="durableName" text="Durable Artical Name" GridPane.rowIndex="1" />
+            <Label fx:id="timeRequest" text="Time Request" GridPane.rowIndex="2" />
+            <Label fx:id="borrowerRLabel" text="borrowerRLabel" GridPane.columnIndex="1" />
+            <Label fx:id="durableRLabel" text="durableRLabel" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Label fx:id="timeRLabel" text="timeRLabel" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>

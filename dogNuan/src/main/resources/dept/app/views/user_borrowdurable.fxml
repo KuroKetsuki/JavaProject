@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<AnchorPane fx:id="userBorrowBackground" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" stylesheets="@../Theme/pastel.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dept.app.controllers.user.DurableRequestBorrow">
+   <children>
+      <Button fx:id="userBorrowBack" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#onBackButtonClick" text="Back" />
+      <Pane fx:id="userBorrowPane" layoutX="84.0" layoutY="77.0" prefHeight="446.0" prefWidth="632.0">
+         <children>
+            <Button fx:id="userConfirmButton" layoutX="461.0" layoutY="336.0" mnemonicParsing="false" onAction="#handleRequestBorrowButton" text="Request" />
+            <Label fx:id="errorLabel" layoutX="416.0" layoutY="368.0" text="errorLabel" textFill="RED" />
+            <GridPane layoutX="35.0" layoutY="57.0" prefHeight="304.0" prefWidth="397.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Label fx:id="catagoryDurableLabel" text="Category Of Durable Articles" />
+                  <Label fx:id="durableIdLabel" text="Durable Articles ID" GridPane.rowIndex="1" />
+                  <Label fx:id="durablesNameLabel" text="Durable Articles Name" GridPane.rowIndex="2" />
+                  <Label fx:id="durableStatusLabel" text="Durable Articles Status" GridPane.rowIndex="3" />
+                  <Label fx:id="storageLocationLabel" text="Storage Location" GridPane.rowIndex="4" />
+                  <Label fx:id="datePurchase" text="Date of Purchase" GridPane.rowIndex="5" />
+                  <Label fx:id="borrowerName" text="Borrower Name" GridPane.rowIndex="6" />
+                  <Label fx:id="dateBorrow" text="Date of Borrow" GridPane.rowIndex="7" />
+                  <Label fx:id="categoryLabel" text="categoryLabel" GridPane.columnIndex="1" />
+                  <Label fx:id="idLabel" text="idLabel" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <Label fx:id="nameLabel" text="nameLabel" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <Label fx:id="statusLabel" text="statusLabel" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                  <Label fx:id="locationLabel" text="locationLabel" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                  <Label fx:id="datepurchaseLabel" text="datepurchaseLabel" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                  <Label fx:id="borrowerLabel" text="borrowerLabel" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                  <Label fx:id="dateborrowLabel" text="dateborrowLabel" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+               </children>
+            </GridPane>
+            <ImageView fx:id="picPath" fitHeight="200.0" fitWidth="150.0" layoutX="415.0" layoutY="57.0" pickOnBounds="true" preserveRatio="true" />
+            <TextField fx:id="addLocation" layoutX="415.0" layoutY="303.0" prefHeight="25.0" prefWidth="150.0" />
+            <Label fx:id="enterLabel" layoutX="402.0" layoutY="280.0" text="Please enter the storage location." />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

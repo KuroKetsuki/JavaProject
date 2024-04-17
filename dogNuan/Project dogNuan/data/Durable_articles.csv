@@ -1,0 +1,30 @@
+Office,0010010010,Color printer,Broken,images/Colorprinter.jpg,Storage room,2022-11-21 10:00:00,DaveTheMinion,2022-12-20 13:36:31
+Office,0010010011,De-aeretor,Normal,images/De-aeretor.jpg,Storage room,2022-11-21 10:00:00,StuartTheMinion,2022-11-07 12:37:40
+Office,0010010012,Desk,Normal,images/Desk.jpg,Office,2022-11-25 10:00:00,StuartTheMinion,2022-12-07 13:00:20
+Office,0010010013,Locker,Normal,images/Locker.jpg,Storage room,2022-11-25 10:00:00,StuartTheMinion,2022-11-12 15:20:51
+Office,0010010014,Office chair,Broken,images/Office_chair.jpg,Office,2022-11-25 10:00:00,StuartTheMinion,2022-11-22 14:48:41
+Office,0010010015,Celling fan,Normal,images/Celling_fan.jpg,Storage room,2022-11-20 10:00:00,DaveTheMinion,2022-12-04 13:30:50
+Office,0010010016,Fire extinguisher,Normal,images/Fire_extinguisher.jpg,Office,2022-11-20 10:00:00,DaveTheMinion,2022-11-10 11:26:10
+Office,0010010017,Document sherredder,Normal,images/Document_sherredder.jpg,Storage room,2022-11-20 10:00:00,StuartTheMinion,2022-11-12 13:36:31
+Office,0010010018,Computer,Normal,images/Computer.jpg,Office,2022-11-26 10:00:00,DaveTheMinion,2022-12-04 14:50:20
+Office,0010010019,File cabinet,Normal,images/File_cabinet.jpg,Storage room,2022-11-25 10:00:00,DaveTheMinion,2022-11-29 13:12:59
+Education,0010020001,Study desk,Normal,images/Study_desk.jpg,Classroom,2022-11-25 10:00:00,DaveTheMinion,2022-12-01 13:07:18
+Education,0010020002,Chair,Normal,images/Chair.jpg,Classroom,2022-11-25 10:00:00,TimTheMinion,2022-11-03 12:55:00
+Education,0010020003,Computer,Broken,images/Computer.jpg,Laboratory,2022-11-26 10:00:00,LanceTheMinion,2022-11-03 11:33:51
+Education,0010020004,White board,Normal,images/White_board.jpg,Central,2022-11-26 10:00:00,Suneepond,2023-03-13 16:33:13
+Education,0010020005,Laptop,Normal,images/Laptop.jpg,Laboratory,2022-11-26 10:00:00,TimTheMinion,2022-11-16 14:17:19
+Education,0010020006,Storage,Normal,images/Storage.jpg,Laboratory,2022-11-25 10:00:00,DaveTheMinion,2022-12-26 13:03:14
+Education,0010020007,VR-VirtualReality,Normal,images/VR-VirtualReality.jpg,Laboratory,2022-11-26 10:00:00,DaveTheMinion,2022-11-16 12:15:20
+Education,0010020008,MotionCapture,Sold,images/MotionCapture.jpg,Empty,2022-11-26 10:00:00,Warissara,2022-11-16 15:15:03
+Education,0010020009,3D printer,Normal,images/3D_printer.jpg,Laboratory,2022-11-21 10:00:00,DaveTheMinion,2022-11-26 13:40:41
+Education,0010020010,Duplicator,Normal,images/Duplicator.jpg,Storage room,2022-11-21 10:00:00,DaveTheMinion,2022-11-30 12:18:20
+Electronic,0020030001,Amplifier,Normal,images/Amplifier.jpg,Classroom,2022-11-21 10:00:00,BobTheMinion,2022-11-05 11:18:24
+Electronic,0020030002,Mutimedia projecter,Normal,images/Mutimedia_projecter.jpg,Classroom,2022-11-26 10:00:00,KevinTheMinion,2022-11-08 11:00:01
+Electronic,0020030003,Wireless microphone,Normal,images/Wireless_microphone.jpg,Storage room,2022-11-26 10:00:00,KevinTheMinion,2022-11-06 12:10:28
+Electronic,0020030004,Wire microphone,Broken,images/Wire_microphone.jpg,Storage room,2022-11-26 10:00:00,KevinTheMinion,2022-11-11 14:10:08
+Electronic,0020030005,Projection mornitor,Normal,images/Projection_mornitor.jpg,Classroom,2022-11-26 10:00:00,KevinTheMinion,2022-12-10 12:15:09
+Electronic,0020030006,UPS(uninteruptible power supply),Normal,images/UPS.jpg,Storage room,2022-11-20 10:00:00,JerryTheMinion,2022-11-24 12:39:19
+Electronic,0020030007,Desk microphone,Normal,images/Desk_microphone.jpg,Central,2022-11-26 10:00:00,Mahannop,2023-03-15 00:07:32
+Electronic,0020030008,Recorder,Broken,images/Recorder.jpg,Storage room,2022-11-26 10:00:00,BobTheMinion,2022-11-23 14:45:40
+Electronic,0020030009,Dynamometer,Donated,images/Dynamometer.jpg,Empty,2022-11-20 10:00:00,Suneepond,2022-12-10 12:15:09
+Electronic,0020030010,Spotlight,Normal,images/Spotlight.jpg,Storage room,2022-11-26 10:00:00,KevinTheMinion,2022-12-15 11:38:57

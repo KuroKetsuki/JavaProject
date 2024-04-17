@@ -1,0 +1,181 @@
+@font-face
+{
+    src: url("Font/Kanit-Regular.ttf");
+}
+
+@font-face
+{
+    src: url("Font/Kanit-Light.ttf");
+}
+
+@font-face
+{
+    src: url("Font/Kanit-SemiBold.ttf");
+}
+
+
+#backgroundPane, #suggestBackground, #userBackground, #officerBackground, #createAccountBackground,#adminBackground, #userDurableBackground, #adminChangeBackground, #borrowReturnBackground, #addMaterialsBackground, #addDurablesBackground, #officerChangeBackground, #userChangeBackground, #userBorrowBackground, #MaterialListBackground, #durableListBackground, #withdrawBackground
+{
+    -fx-background-color: #404258;
+}
+
+#infoBackground, #userSystemBackground, #historyBackground
+{
+    -fx-background-color: #404258;
+}
+
+#loginPane, #crateAccountPane, #adminChangePane, #addMaterialsPane, #addDurablesPane, #officerChangePane, #userChangePane, #userBorrowPane
+{
+    -fx-background-color: #6B728E;
+    -fx-background-radius: 15;
+}
+
+#officerMenuPane,#adminPane
+{
+    -fx-background-color: #6B728E;
+}
+
+#welcomePane
+{
+    -fx-background-color: transparent;
+}
+
+#welcomeLabel ,#usernameLabel ,#passwordLabel ,#createLabel, #createAccountNameLabel, #createAccountUsernameLabel, #createAccountPasswordLabel, #createConfirmPasswordLabel, #addMaterialsLabel, #officerChangePasswordLabel, #officerOldPassword, #officerNewPassword, #officerConfirmPassword,
+#userChangePasswordLabel, #userOldPassword, #userNewPassword, #userConfirmPassword, #catagoryDurableLabel, #durableIdLabel, #durablesNameLabel, #durableStatusLabel, #storageLocationLabel, #datePurchase, #timePurchase, #borrowerName, #dateBorrow, #timeBorrow, #categoryLabel, #idLabel, #nameLabel, #statusLabel,
+#locationLabel, #datepurchaseLabel, #timepurchaseLabel, #borrowerLabel, #dateborrowLabel, #timeborrowLabel, #requisitionDateLabel, #withdrawLabel, #dateLabel, #amountLabel
+{
+    -fx-font-family: "Kanit Light";
+    -fx-font-size: 12;
+    -fx-text-fill: #F7F7F7;
+}
+
+#detailsLabel, #durableLabel, #durableBLabel, #locationBLabel, #timeRequest, #durableName, #borrowerRLabel, #durableRLabel, #timeRLabel, #borrowerBLabel, #timeBLabel, #enterLabel, #requestLabel, #requisitionDateLabel, #withdrawLabel, #dateLabel, #roleLabel, #roleAdminLabel, #nameAdminLabel, #usernameAdminLabel, #timeLabel, #timeAdminLabel
+{
+    -fx-font-family: "Kanit Light";
+    -fx-font-size: 12;
+    -fx-text-fill: #F7F7F7;
+}
+
+#programName ,#comebackLabel, #suggestLabel, #durableArticle, #adminChangePassword, #materialListLabel, #durableListLabel, #UserActivity, #addDurableLabel, #addMaterialsLabel
+{
+    -fx-font-family: "Kanit SemiBold";
+    -fx-font-size: 24;
+    -fx-text-fill: #F7F7F7;
+}
+#borrowLabel, #returnLabel, #MaterialHistory, #historyLabel, #MaterialWithdraw
+{
+    -fx-font-family: "Kanit SemiBold";
+    -fx-font-size: 20;
+    -fx-text-fill: #F7F7F7;
+}
+
+#officerRoleLabel, #officerNameLabel, #officerUsernameLabel, #officerTimeLabel, #roleOfficerLabel, #nameOfficerLabel, #usernameOfficerLabel, #timeOfficerLabel, #userRoleLabel, #userNameLabel, #userUsernameLabel, #userTimeLabel, #roleUserLabel, #nameUserLabel, #usernameUserLabel, #timeUserLabel
+{
+    -fx-font-family: "Kanit SemiBold";
+    -fx-font-size: 18;
+    -fx-text-fill: #F7F7F7;
+}
+
+#createAccountButton ,#infoButton ,#suggestButton, #changeProfile, #myDurable, #myMaterials, #durableList, #officerBorrowReturn,#officerChangeProfile, #officerDurablesList, #officerMaterialsList, #adminChangePassword, #adminUser, #adminCreateOfficer, #adminUpload,
+#officerAddMaterials, #officerAddDurables
+{
+    -fx-font-family: "Kanit Light";
+    -fx-font-size: 12;
+    -fx-text-fill: #F7F7F7;
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+#loginButton, #createAccount2Button, #adminApply, #officerApplyButton, #userApplyButton
+{
+    -fx-font-family: "Kanit Light";
+    -fx-font-size: 18;
+    -fx-text-fill: #50577A;
+    -fx-background-color: #F7F7F7;
+    -fx-border-radius: 10;
+    -fx-background-radius: 50;
+}
+
+#borrowPermit, #returnPermit, #addMaterialsButton, #addDurablesButton, #userConfirmButton, #withdrawButton, #searchButton, #returnButton
+{
+    -fx-font-family: "Kanit Light";
+    -fx-font-size: 12;
+    -fx-text-fill: #F7F7F7;
+    -fx-background-color: #50577A;
+    -fx-border-radius: 10;
+    -fx-background-radius: 50;
+}
+
+#imagePane
+{
+    -fx-background-color: #6B728E;
+    -fx-background-radius: 15;
+}
+
+#themeChooser
+{
+    -fx-font-family: "Kanit Regular";
+    -fx-font-size: 12;
+    -fx-text-fill: #F7F7F7;
+    -fx-background-color: #474E68;
+    -fx-background-radius: 50;
+}
+
+#backButton, #backInfoButton, #logOutButton, #officerLogOut, #userSystemBack, #durableListBack, #createBackButton, #adminBackButton, #userDurableBack, #adminChangeBack, #borrowReturnBack, #addMaterialsBack, #addDurablesBack, #officerChangeBackButton, #userChangeBackButton, #userBorrowBack, #materialListBackButton
+{
+    -fx-font-family: "Kanit Light";
+    -fx-font-size: 14;
+    -fx-text-fill: #F7F7F7;
+    -fx-background-color: #474E68;
+    -fx-border-radius: 10;
+    -fx-background-radius: 50;
+}
+
+#dev1, #dev2, #dev3
+{
+    -fx-background-color: #6B728E;
+    -fx-background-radius: 15;
+}
+
+#devPane, #userSystemPane
+{
+    -fx-background-color: #F7F7F7;
+}
+
+#infoLabel
+{
+    -fx-text-fill: #F7F7F7;
+}
+
+#userMenuPane
+{
+    -fx-background-color: #6B728E;
+}
+
+#userTable, #officerTable, #userSystemTable,#adminTable, #durableTableView, #materialTableView, #borrowTable, #withdrawTable, returnTable, #withdrawLogTable, #materialsLogTable, #returnTable
+{
+    -fx-background-color: #474E68;
+    -fx-font-family: "Kanit Light";
+    -fx-font-size: 12;
+    -fx-background-radius: 15;
+}
+
+#userSystemLabel
+{
+    -fx-font-family: "Kanit SemiBold";
+    -fx-font-size: 24;
+    -fx-text-fill: #50577A;
+}
+
+#adminNewPassword, #adminOldPassword, #adminCheckPassword
+{
+    -fx-font-family: "Kanit Light";
+    -fx-font-size: 12;
+    -fx-text-fill: #F7F7F7;
+}
+
+#borrowListView, #returnListView, #addMaterialsListView, #addDurablesListView
+{
+    -fx-background-color: #474E68;
+    -fx-background-radius: 15;
+}
